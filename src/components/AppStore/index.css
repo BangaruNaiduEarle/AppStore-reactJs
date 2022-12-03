@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.mainBgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+}
+@media screen and (min-width: 768px) {
+  .mainBgContainer {
+    height: 100vh;
+  }
+}
+.mainHeading {
+  font-family: 'Bree Serif';
+  font-size: 42px;
+  color: #1e293b;
+}
+.inputContainer {
+  display: flex;
+  height: 26px;
+  align-items: center;
+  border: 1px solid #7b8794;
+  border-radius: 8px;
+  padding: 20px 8px 20px 8px;
+}
+.inputEle {
+  background-color: transparent;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #7b8794;
+  border: none;
+}
+
+.searchImage {
+  display: flex;
+  height: 26px;
+  align-items: center;
+}
+
+.unOrderTabList {
+  display: flex;
+  padding-left: 0px;
+}
+.unOrderAppList {
+  display: flex;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  text-align: center;
+  justify-content: center;
+}
